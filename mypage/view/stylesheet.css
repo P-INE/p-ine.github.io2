@@ -1,0 +1,166 @@
+ html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+
+  html,　body {
+      height: 100%;
+    }
+    .wrapper{
+      width: 100%;
+      position: relative;
+      min-height: 100%;
+      
+ }
+ 
+header{
+    background-color: lightcoral;
+    height: 130px;
+
+}
+.title {
+    color: whitesmoke;
+    padding:20px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.header-right{
+    text-align: right;
+font-size: 30px;
+font-family:'arial black';
+ 
+}
+a:link { color: whitesmoke;
+  text-decoration: none;
+  opacity: 0.7;
+}
+a:visited {
+ 
+  color: whitesmoke;
+  text-decoration:none;
+  opacity: 0.7;
+   
+  }
+
+  a:hover{
+    cursor:pointer;
+    opacity:1;
+  
+  }
+
+  .main{
+    text-align:center;
+    padding-top:150px;
+  }
+  .main img{
+    border-radius: 50%;  
+    width: 210px;      
+    height: 210px;  
+  　　　}
+
+  .copy-container {
+    text-align:center;
+    color:#FFCCCC;
+    font-family:'arial';
+  }
+
+ 
+
+.top-wrapper{
+  height: 700px;
+  background-image: url("15784877_MotionElements_abstract-circle-color_converted_405863-640x360-3s-q1.gif");
+ background-size: cover;
+
+}
+.contents{
+  padding-bottom: 470px;
+}
+.contents h2{
+  
+  color:lightcoral;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 40px;
+  padding-bottom:30px;
+  font-family:'arial black';
+}
+ 
+.contents-item{
+  display: inline-block;
+}
+
+
+
+ 
+img{
+  width:300px;
+}
+
+.footer {
+  background-color:lightcoral;
+  color: #fff;
+  height: 340px;
+  margin-top:300px;
+  padding-top:20px; 
+  position:absolute;
+  bottom:0; 
+  position:absolute;
+  width: 100%;
+}
+
+.section-title{
+  font-size: 20px;
+  padding-top: 20px;
+  font-family:'arial';
+}
+.contact-form p{
+  font-family:'arial';
+  font-size: 18px;
+}
+
+.contact-form{
+  text-align: center;
+  
+}
+
+
+
+input{
+  margin: 1px;
+  width: 250px;
+  font-size: 15px;
+  border: 2px solid pink;
+}
+
+
+textarea {
+  width: 250px;
+  height:100px;
+ padding: １px;
+  font-size: 12px;
+  border: 2px solid pink;
+
+}
+
+.contact-submit{
+  background-color:pink;
+  color:#889eab;
+ 
+}
+
+.contact-submit:active{
+  background-color:white;
+  color:#889eab;
+}
+
+
+.clear{
+  clear:left;
+}
